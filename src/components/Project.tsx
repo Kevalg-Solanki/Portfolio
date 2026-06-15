@@ -1,6 +1,7 @@
 //ASSETS
 import QrMachine from "../assets/qr-machine.png";
 import MyInventory from "../assets/myinventory.png";
+import HungerHelpers from "../assets/help-me-page.png";
 
 //ICONS
 import { ExternalLink, CheckCircle2 } from "lucide-react";
@@ -147,7 +148,7 @@ export default function Projects() {
 							<div className="bg-slate-100 flex items-center justify-center p-8">
 								<img
 									src={MyInventory}
-									alt="QR Machine"
+									alt="MyInventory"
 									className="rounded-2xl shadow-lg"
 								/>
 							</div>
@@ -180,7 +181,7 @@ export default function Projects() {
 									</div>
 
 									<div className="flex items-center gap-3">
-										<CheckCircle2 size={18} className="text-blue-600" />
+										<CheckCircle2 size={12} className="text-blue-600" />
 										<span>
 											Developed REST APIs for tenant, user, role, and membership
 											management.
@@ -197,7 +198,6 @@ export default function Projects() {
 								</div>
 
 								<div className="flex gap-4 mt-10">
-							
 									<a
 										href="#"
 										className="
@@ -213,8 +213,8 @@ export default function Projects() {
                                         h-15
 									"
 									>
-										Website
-										<ExternalLink size={18} />
+										GitHub
+										<img className="w-10 h-10" src={Github} alt="Github" />
 									</a>
 								</div>
 							</div>
@@ -224,28 +224,89 @@ export default function Projects() {
 					{/* HUNGER HELPERS */}
 					<div
 						className="
-							bg-white
-							p-8
-							rounded-3xl
-							shadow-lg
-							border
-							border-gray-100
-						"
+						bg-white
+						rounded-3xl
+						shadow-xl
+						overflow-hidden
+						border
+						border-gray-100
+					"
 					>
-						{/* <img
-                                src={HungerHelpers}
-                                alt="Hunger Helpers"
-                                className="rounded-xl"
-                            /> */}
+						<div className="grid lg:grid-cols-2">
+							{/* IMAGE */}
+							<div className="bg-slate-100 flex items-center justify-center p-8">
+								<img
+									src={HungerHelpers}
+									alt="Hunger Helpers"
+									className="rounded-2xl shadow-lg"
+								/>
+							</div>
 
-						<h3 className="text-2xl font-bold mt-6 text-slate-900">
-							Hunger Helpers
-						</h3>
+							{/* CONTENT */}
+							<div className="p-10 lg:p-14">
+								<h3 className="text-4xl font-bold mt-6 text-slate-900">
+									Hunger Helpers
+								</h3>
 
-						<p className="text-slate-600 mt-3">
-							Food donation platform with 50+ APIs, analytics, reporting and
-							volunteer management.
-						</p>
+								<p className="mt-6 text-slate-600 leading-relaxed">
+									Food Donation Platform
+								</p>
+
+								<div className="mt-8 space-y-4">
+									<div className="flex items-center gap-3">
+										<CheckCircle2 size={19} className="text-blue-600" />
+										<span>
+											Designed and developed the backend architecture for a food donation and volunteer coordination 
+platform. 
+										</span>
+									</div>
+
+									<div className="flex items-center gap-3">
+										<CheckCircle2 size={21} className="text-blue-600" />
+										<span>
+											Built 50+ REST APIs covering authentication, donations, volunteer management, notifications, 
+analytics, and reporting.
+										</span>
+									</div>
+
+									<div className="flex items-center gap-3">
+										<CheckCircle2 size={18} className="text-blue-600" />
+										<span>
+										 Implemented JWT authentication, role-based access control (RBAC), and donation lifecycle 
+workflows. 
+										</span>
+									</div>
+
+									<div className="flex items-center gap-3">
+										<CheckCircle2 size={15} className="text-blue-600" />
+										<span>
+											Developed analytics, leaderboard, reporting, and real-time notification features. 
+										</span>
+									</div>
+								</div>
+
+								<div className="flex gap-4 mt-10">
+									<a
+										href="#"
+										className="
+										border
+										border-gray-300
+										px-6
+										py-3
+										rounded-xl
+										flex
+										items-center
+                                        justify-center
+										gap-2
+                                        h-15
+									"
+									>
+										GitHub
+										<img className="w-10 h-10" src={Github} alt="Github" />
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
