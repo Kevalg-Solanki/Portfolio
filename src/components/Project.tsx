@@ -88,7 +88,9 @@ export default function Projects() {
 
 							<div className="flex gap-4 mt-10">
 								<a
-									href="#"
+									href="https://chromewebstore.google.com/detail/dgbfbbloongaponnkdbiknpccbaaemoi?utm_source=item-share-cb"
+									target="_blank"
+								rel="noreferrer"
 									className="
 										bg-blue-600
 										text-white
@@ -108,7 +110,9 @@ export default function Projects() {
 								</a>
 
 								<a
-									href="#"
+									href="https://qr-machine.tooljar.site/"
+									target="_blank"
+								rel="noreferrer"
 									className="
 										border
 										border-gray-300
@@ -153,6 +157,7 @@ export default function Projects() {
 							w-full
 							h-56
 							object-cover
+							
 								"
 						/>
 
@@ -183,7 +188,9 @@ export default function Projects() {
 							</div>
 
 							<a
-								href="#"
+								href="https://github.com/Kevalg-Solanki/MyInventory"
+								target="_blank"
+								rel="noreferrer"
 								className="
 					mt-6
 					inline-flex
@@ -251,7 +258,9 @@ export default function Projects() {
 							</div>
 
 							<a
-								href="#"
+								href="https://github.com/Kevalg-Solanki/Hunger-Helpers"
+								target="_blank"
+								rel="noreferrer"
 								className="
 					mt-6
 					inline-flex
