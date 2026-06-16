@@ -15,38 +15,38 @@ function App() {
 		<Cursor/>
 			<Sidebar />
 
-			<main>
-				<section id="home" className="min-h-screen">
+			<main> 
+				<section id="home" className="min-h-screen snap-start">
 					<Reveal>
 
 					<Hero />
 					</Reveal>
 				</section>
 
-				<section id="projects" className="min-h-screen">
+				<section id="projects" className="min-h-screen snap-start">
 					<Reveal>
 						<Projects />
 					</Reveal>
 				</section>
-				<section id="experience" className="min-h-screen">
+				<section id="experience" className="min-h-screen snap-start">
 					<Reveal>
 						<Experience />
 					</Reveal>
 				</section>
 
-				<section id="services" className="min-h-screen">
+				<section id="services" className="min-h-screen snap-start">
 					<Reveal>
 						<Services />
 					</Reveal>
 				</section>
 
-				<section id="skills" className="min-h-screen">
+				<section id="skills" className="min-h-screen snap-start">
 					<Reveal>
 						<Skills />
 					</Reveal>
 				</section>
 
-				<section id="contact" className="min-h-screen">
+				<section id="contact" className="min-h-screen snap-start">
 					<Reveal>
 						<Contact />
 					</Reveal>
