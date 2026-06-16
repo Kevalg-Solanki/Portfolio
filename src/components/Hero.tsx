@@ -27,9 +27,9 @@ export default function Hero() {
 						<h1
 							className="
 								mt-6
-								text-5xl
-								md:text-6xl
-								lg:text-4xl
+								text-4xl
+								md:text-5xl
+								lg:text-6xl
 								font-bold
 								leading-tight
 								text-slate-900
@@ -144,6 +144,8 @@ export default function Hero() {
 									bg-blue-500/20
 									blur-[120px]
 									rounded-full
+									bg-white
+									p-3
 								"
 							/>
 
@@ -154,8 +156,8 @@ export default function Hero() {
 									relative
 									w-80
 									h-80
-									md:w-[380px]
-									md:h-[460px]
+									md:w-[420px]
+									md:h-[520px]
 									object-cover
 									rounded-3xl
 									shadow-2xl

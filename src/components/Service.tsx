@@ -1,7 +1,7 @@
 //ICONS
 import {
 	Boxes,
-	
+	Blocks,
 	Server,
 	Workflow,
 } from "lucide-react";
@@ -17,7 +17,7 @@ const services = [
 		title: "Chrome Extensions",
 		description:
 			"Commercial Chrome Extensions with licensing, subscriptions, offline functionality, and performance optimization.",
-		icon: Boxes,
+		icon: Blocks,
 	},
 	{
 		title: "Backend Development",

@@ -131,181 +131,139 @@ export default function Projects() {
 				</div>
 
 				{/* OTHER PROJECTS */}
-				<div className="mt-12 grid md:grid-rows-2 gap-8">
-					{/* INVENTORY */}
+				{/* OTHER PROJECTS */}
+				<div className="mt-12 grid md:grid-cols-2 gap-8">
+					{/* MY INVENTORY */}
 					<div
 						className="
-						bg-white
-						rounded-3xl
-						shadow-xl
-						overflow-hidden
-						border
-						border-gray-100
-					"
+			bg-white
+			border
+			border-gray-200
+			rounded-3xl
+			overflow-hidden
+			shadow-sm
+			hover:shadow-lg
+			transition-all
+		"
 					>
-						<div className="grid lg:grid-cols-2">
-							{/* IMAGE */}
-							<div className="bg-slate-100 flex items-center justify-center p-8">
-								<img
-									src={MyInventory}
-									alt="MyInventory"
-									className="rounded-2xl shadow-lg"
-								/>
+						<img
+							src={MyInventory}
+							alt="MyInventory"
+							className="
+							w-full
+							h-56
+							object-cover
+								"
+						/>
+
+						<div className="p-6">
+							<h3 className="text-2xl font-bold text-slate-900">MyInventory</h3>
+
+							<p className="text-slate-600 mt-3">
+								Multi-tenant inventory management system with JWT
+								authentication, RBAC and tenant isolation.
+							</p>
+
+							<div className="flex flex-wrap gap-2 mt-4">
+								<span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm">
+									Node.js
+								</span>
+
+								<span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm">
+									Express
+								</span>
+
+								<span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm">
+									MongoDB
+								</span>
+
+								<span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm">
+									JWT
+								</span>
 							</div>
 
-							{/* CONTENT */}
-							<div className="p-10 lg:p-14">
-								<h3 className="text-4xl font-bold mt-6 text-slate-900">
-									MyInventory
-								</h3>
-
-								<p className="mt-6 text-slate-600 leading-relaxed">
-									Multi-Tenant Inventory Management System
-								</p>
-
-								<div className="mt-8 space-y-4">
-									<div className="flex items-center gap-3">
-										<CheckCircle2 size={18} className="text-blue-600" />
-										<span>
-											Designed a multi-tenant backend architecture supporting
-											isolated business accounts and role-based access control.
-										</span>
-									</div>
-
-									<div className="flex items-center gap-3">
-										<CheckCircle2 size={18} className="text-blue-600" />
-										<span>
-											Implemented JWT authentication, OTP verification, password
-											recovery, and permission management workflows.
-										</span>
-									</div>
-
-									<div className="flex items-center gap-3">
-										<CheckCircle2 size={12} className="text-blue-600" />
-										<span>
-											Developed REST APIs for tenant, user, role, and membership
-											management.
-										</span>
-									</div>
-
-									<div className="flex items-center gap-3">
-										<CheckCircle2 size={18} className="text-blue-600" />
-										<span>
-											Applied Service Layer and Repository Pattern architecture
-											for scalability and maintainability.
-										</span>
-									</div>
-								</div>
-
-								<div className="flex gap-4 mt-10">
-									<a
-										href="#"
-										className="
-										border
-										border-gray-300
-										px-6
-										py-3
-										rounded-xl
-										flex
-										items-center
-                                        justify-center
-										gap-2
-                                        h-15
-									"
-									>
-										GitHub
-										<img className="w-10 h-10" src={Github} alt="Github" />
-									</a>
-								</div>
-							</div>
+							<a
+								href="#"
+								className="
+					mt-6
+					inline-flex
+					items-center
+					gap-2
+					text-blue-600
+					font-medium
+				"
+							>
+								GitHub
+								<img className="w-5 h-5" src={Github} alt="Github" />
+							</a>
 						</div>
 					</div>
 
 					{/* HUNGER HELPERS */}
 					<div
 						className="
-						bg-white
-						rounded-3xl
-						shadow-xl
-						overflow-hidden
-						border
-						border-gray-100
-					"
+			bg-white
+			border
+			border-gray-200
+			rounded-3xl
+			overflow-hidden
+			shadow-sm
+			hover:shadow-lg
+			transition-all
+		"
 					>
-						<div className="grid lg:grid-cols-2">
-							{/* IMAGE */}
-							<div className="bg-slate-100 flex items-center justify-center p-8">
-								<img
-									src={HungerHelpers}
-									alt="Hunger Helpers"
-									className="rounded-2xl shadow-lg"
-								/>
+						<img
+							src={HungerHelpers}
+							alt="Hunger Helpers"
+							className="
+				w-full
+				h-56
+				object-cover
+			"
+						/>
+
+						<div className="p-6">
+							<h3 className="text-2xl font-bold text-slate-900">
+								Hunger Helpers
+							</h3>
+
+							<p className="text-slate-600 mt-3">
+								Food donation platform with 50+ REST APIs, analytics,
+								notifications and volunteer management.
+							</p>
+
+							<div className="flex flex-wrap gap-2 mt-4">
+								<span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm">
+									Node.js
+								</span>
+
+								<span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm">
+									Express
+								</span>
+
+								<span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm">
+									MongoDB
+								</span>
+
+								<span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm">
+									Socket.IO
+								</span>
 							</div>
 
-							{/* CONTENT */}
-							<div className="p-10 lg:p-14">
-								<h3 className="text-4xl font-bold mt-6 text-slate-900">
-									Hunger Helpers
-								</h3>
-
-								<p className="mt-6 text-slate-600 leading-relaxed">
-									Food Donation Platform
-								</p>
-
-								<div className="mt-8 space-y-4">
-									<div className="flex items-center gap-3">
-										<CheckCircle2 size={19} className="text-blue-600" />
-										<span>
-											Designed and developed the backend architecture for a food donation and volunteer coordination 
-platform. 
-										</span>
-									</div>
-
-									<div className="flex items-center gap-3">
-										<CheckCircle2 size={21} className="text-blue-600" />
-										<span>
-											Built 50+ REST APIs covering authentication, donations, volunteer management, notifications, 
-analytics, and reporting.
-										</span>
-									</div>
-
-									<div className="flex items-center gap-3">
-										<CheckCircle2 size={18} className="text-blue-600" />
-										<span>
-										 Implemented JWT authentication, role-based access control (RBAC), and donation lifecycle 
-workflows. 
-										</span>
-									</div>
-
-									<div className="flex items-center gap-3">
-										<CheckCircle2 size={15} className="text-blue-600" />
-										<span>
-											Developed analytics, leaderboard, reporting, and real-time notification features. 
-										</span>
-									</div>
-								</div>
-
-								<div className="flex gap-4 mt-10">
-									<a
-										href="#"
-										className="
-										border
-										border-gray-300
-										px-6
-										py-3
-										rounded-xl
-										flex
-										items-center
-                                        justify-center
-										gap-2
-                                        h-15
-									"
-									>
-										GitHub
-										<img className="w-10 h-10" src={Github} alt="Github" />
-									</a>
-								</div>
-							</div>
+							<a
+								href="#"
+								className="
+					mt-6
+					inline-flex
+					items-center
+					gap-2
+					text-blue-600
+					font-medium
+				"
+							>
+								GitHub
+								<img className="w-5 h-5" src={Github} alt="Github" />
+							</a>
 						</div>
 					</div>
 				</div>
