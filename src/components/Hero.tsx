@@ -11,7 +11,7 @@ export default function Hero() {
 	return (
 		<section
 			id="home"
-			className="min-h-screen flex items-center mt-20"
+			className="min-h-screen flex items-center mt-15"
 		>
 			<div className="max-w-7xl mx-auto px-6 lg:pl-40 w-full">
 				<div className="grid lg:grid-cols-2 gap-16 items-center">
