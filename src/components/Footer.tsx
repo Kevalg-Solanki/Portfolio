@@ -19,7 +19,7 @@ export default function Footer() {
 					</div>
 
 					{/* CENTER */}
-					<div className="flex gap-8 text-slate-600">
+					<div className="flex gap-8 text-slate-600 max-sm:flex-col">
 						<a
 							href="#home"
 							className="hover:text-blue-600 transition"
