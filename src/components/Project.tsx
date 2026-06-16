@@ -38,7 +38,7 @@ export default function Projects() {
 						border-gray-100
 					"
 				>
-					<div className="grid lg:grid-cols-2">
+					<div className="grid lg:grid-cols-2 justify-center">
 						{/* IMAGE */}
 						<div className="bg-slate-100 flex items-center justify-center p-8">
 							<img

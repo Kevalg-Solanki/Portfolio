@@ -202,6 +202,7 @@ export default function Hero() {
 									Months Experience
 								</p>
 							</div>
+							
 						</div>
 					</motion.div>
 
